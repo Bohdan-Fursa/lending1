@@ -103,13 +103,14 @@ h2{
 }
 .card1{
     margin-left: 20%;
+    position: relative;
     display: inline-block;
 }
 .card-text1{
     position: absolute;
     left: 0;
-    margin-left: 21%;
-    margin-top: 23%;
+    margin-left: 5%;
+    margin-top: 75%;
     display: inline-block;
     color: white;
 }
@@ -151,13 +152,14 @@ h2{
 /* CARD 2 */
 .card2{
     margin-left: 16px;
+    position: relative;
     display: inline-block;
 }
 .card-text2{
     position: absolute;
-    right: 0;
-    margin-right: 22%;
-    margin-top: 23%;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 75%;
     display: inline-block;
     color: white;
 }
@@ -184,13 +186,14 @@ h2{
 .card3{
     margin-left: 20%;
     margin-top: 1%;
+    position: relative;
     display: inline-block;
 }
 .card-text3{
     position: absolute;
     left: 0;
-    margin-left: 21%;
-    margin-top: 23%;
+    margin-left: 5%;
+    margin-top: 75%;
     display: inline-block;
     color: white;
 }
@@ -216,13 +219,14 @@ h2{
 /* CARD 4 */
 .card4{
     margin-left: 16px;
+    position: relative;
     display: inline-block;
 }
 .card-text4{
     position: absolute;
-    right: 0;
-    margin-right: 22%;
-    margin-top: 23%;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 75%;
     display: inline-block;
     color: white;
 }
