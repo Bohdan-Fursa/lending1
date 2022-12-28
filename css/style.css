@@ -264,7 +264,6 @@ h2{
 /* END CARDS */
 .about-bg{
     position: relative;
-    margin-top: 10%;
 }
 .about-bg img{
     position: relative;
@@ -580,7 +579,7 @@ footer{
     padding-bottom: 5%;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1280px) {
     .navbar-brand{
         margin-left: 0;
     }
@@ -594,6 +593,45 @@ footer{
     }
     .card3{
         margin-bottom: 2%;
+    }
+    .about-bg-text{
+        margin-top: 14%;
+        margin-right: 4%;
+    }
+    .tools-bg{
+        width: 430px;
+        height: 390px !important;
+    }
+    .tools-text p{
+        font-size: 8px !important;
+    }
+    .tools-text a{
+        font-size: 10px !important;
+    }
+    .tools-bn{
+        height: 230px
+    }
+    .tools-bn-text{
+        margin-top: 20%;
+        margin-right: 10%;
+    }
+    .tools-bn-text p{
+        font-size: 9px !important;
+    }
+    .tools-banner{
+        padding-top: 10%;
+    }
+    .client-bn img{
+        margin-top: 0;
+        height: 460px;
+    }
+    .icons{
+        display: flex;
+        position: absolute;
+        top: 0;
+        margin-top: 17%;
+        margin-left: 75%;
+        width: 20%;
     }
 }
 @media only screen and (max-width:550px){
@@ -666,6 +704,66 @@ footer{
     .read-more{
         font-size: 12px;
     }
+    .about-bg p{
+        font-size: 10px;
+    }
+    .about-bg-text{
+        margin-top: 8%;
+        margin-right: 4%;
+    }
+    .icons-info{
+        width: 145px;
+    }
+
+    h3{
+        font-size: 18px !important;
+    }
+    .tools-text p{
+        font-size: 8px !important;
+    }
+    .tools-text a{
+        font-size: 10px !important;
+    }
+    .tools-bg{
+        display: none;
+    }
+    .tools-bn{
+        height: 230px
+    }
+    .tools-bn-text{
+        margin-top: 30%;
+        margin-right: 2%;
+    }
+    .tools-bn-text p{
+        font-size: 9px !important;
+    }
+    .tools-banner{
+        padding-top: 10%;
+    }
+    .cards-clients{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards-clients img{
+        padding-top: 20%;
+    }
+
+    .client-bn img{
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
+    }
+    .client-bn-text{
+        margin-top: 20%;
+        margin-right: 5%;
+    }
+    .icons{
+        display: flex !important;
+        margin-top: 0 !important;
+        margin-left: 11% !important;
+        position: relative;
+    }
 }
 @media only screen and (max-width:320px){
     h1{
@@ -727,5 +825,39 @@ footer{
     }
     .read-more{
         font-size: 12px;
+    }
+    .about-bg-text p{
+        font-size: 7px;
+    }
+    .about-bg-text span{
+        font-size: 10px;
+    }
+    .about-bg-text{
+        margin-top: 2%;
+        margin-right: 4%;
+    }
+    .icons-info{
+        width: 145px;
+    }
+    .tools-text{
+        margin-left: 4%;
+    }
+    .text-help{
+        margin-top: 1%;
+    }
+    .client-bn-text{
+        margin-top: 20%;
+        margin-right: 3%;
+    }
+    .client-bn-text span{
+        font-size: 10px;
+    }
+    .client-bn-text p{
+        font-size: 10px;
+    }
+    .client-bn img{
+        width: 100%;
+        height: 250px;
+        margin-top: 0;
     }
 }
